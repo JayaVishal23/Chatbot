@@ -3,7 +3,7 @@ import express from "express";
 import bodyParser from "body-parser";
 
 const ai = new GoogleGenAI({
-  apiKey: "AIzaSyDR8pnggzIxh7Q2q6yqmGTMEqmcep1z8pE",
+  apiKey: "",
 });
 
 async function main(input) {
